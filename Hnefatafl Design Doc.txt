@@ -1,0 +1,38 @@
+HNEFATAFL DESIGN DOC
+
+
+Graphics/animation
+
+  Models needed for:
+   - Board
+     - 11x11 squares
+     - Starting squares for attackers marked
+     - Starting squares for defenders marked
+     - Central square and corners marked
+   - Pieces
+     - Attackers
+     - Defenders
+     - King
+
+  Animations:
+   - Piece moving
+   - Capturing a piece
+
+
+Logic structure:
+
+  Things in the game:
+   - Players
+   - Board
+   - Pieces
+   - Turns?
+  
+  Actions:
+   - Pick a side
+   - Move a piece
+   - Capture a regular piece
+   - Capture a king
+   - Win
+   - Lose
+   - Resign
+   - Shield-wall capture

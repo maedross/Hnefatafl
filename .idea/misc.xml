@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/CopenhagenRules.txt" />
+    <file url="file://$PROJECT_DIR$/Feature Files (Cucumber)/Boards/boardsReference.txt" />
+    <file url="file://$PROJECT_DIR$/Feature Files (Cucumber)/Boards/captureBackground.txt" />
+    <file url="file://$PROJECT_DIR$/Feature Files (Cucumber)/Boards/captureHostile.txt" />
+    <file url="file://$PROJECT_DIR$/Feature Files (Cucumber)/Boards/captureKingFour.txt" />
+    <file url="file://$PROJECT_DIR$/Feature Files (Cucumber)/Boards/captureKingThree" />
+    <file url="file://$PROJECT_DIR$/Feature Files (Cucumber)/Boards/captureNormal" />
+    <file url="file://$PROJECT_DIR$/Feature Files (Cucumber)/Boards/captureShieldWall" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14_PREVIEW" project-jdk-name="14" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

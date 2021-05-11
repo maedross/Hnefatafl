@@ -1,0 +1,31 @@
+SETUP-1: The game shall have a default starting state according to the Copenhagen rules
+
+SETUP-2: The attackers shall make the first move
+
+MOVEMENT-1: Pieces shall move horizontally and vertically along the board.
+
+MOVEMENT-2: Pieces shall not jump over other pieces
+
+MOVEMENT-3: Only the king shall be able to move onto hostile squares
+
+CAPTURE-1: The king shall be captured when surrounded on all 4 sides by attacker pieces
+
+CAPTURE-2: Non-king pieces shall be captured when flanked on opposite sides along a row or column by 2 pieces.
+
+CAPTURE-3: Hostile squares shall be able to be used to capture an enemy piece as if they were a player piece
+
+CAPTURE-4: Non-king pieces shall be captured when completely surrounded on the edge of the board (known as the shield wall capture)
+
+CAPTURE-5: The king shall be captured if surrounded by three pieces while at the edge of the board
+
+VICTORY-1: The attacker player shall win if they capture the king
+
+VICTORY-2: The defender player shall win if they move the king to one of the corners of the board
+
+VICTORY-3: The attacker player shall win if they surround the defending pieces such that none can reach a board edge
+
+VICTORY-4: The defender player shall win if they construct a layout of defenders at the edge of the board which cannot be captured, and which allows the king free movement inside (an edge fort)
+
+VICTORY-5: Either player shall win if their opponent is unable to move
+
+ILLEGAL-1: If a board position has been reached 3 times, the player in control shall make a different move

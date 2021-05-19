@@ -45,7 +45,7 @@ Feature: Victory
       Then the defender wins
     Scenario: Attacker surrounds defender
       Given a game board of "victoryTrapDefender"
-      When the attacker move from 5, 3 to 4, 3
+      When the attacker moves from 5, 3 to 4, 3
       Then the attacker wins
     Scenario: Defender captures last attacker piece
       Given a game board of "victoryEliminateAttacker"

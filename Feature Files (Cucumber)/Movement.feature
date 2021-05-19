@@ -18,7 +18,7 @@ Feature: Movement
   Rule: A piece cannot move past another piece
     Scenario: Try to jump over a piece over another piece
       When the attacker moves from 4, 1 to 8, 1
-      Then I must make a different move
+      Then the attacker must make a different move
 
   Rule: Only the king can move onto a hostile square
     Scenario: Move the king to the center

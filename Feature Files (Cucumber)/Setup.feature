@@ -14,4 +14,4 @@ Feature: Startup
     Scenario: I start the game
       Given the menu
       When I start the game
-      Then it is the attacker's move
+      Then it is the attacker's turn

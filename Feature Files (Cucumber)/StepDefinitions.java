@@ -22,6 +22,7 @@ public class StepDefinitions {
     @When("I start the game")
     public void iStartTheGame() {
         // Select new game
+        Hnefatafl.newGame();
     }
 
     @When("the {string} moves from {int}, {int} to {int}, {int}")
@@ -35,12 +36,12 @@ public class StepDefinitions {
         // Need to generate path somewhere? Should we specify whether it's a save file vs a testing board
         // since they might be in different locations? Or just put them in the same location?
         String expectedBoard = Hnefatafl.loadEncodedBoard(arg0);
-        Hnefatafl.compareBoards(expectedBoard);
+        assertTrue(Hnefatafl.compareBoards(expectedBoard));
     }
 
     @Then("it is the attacker's turn")
     public void itIsTheAttackerSTurn() {
-
+        // Assert?
     }
 
     @Then("the attacker must make a different move")
@@ -51,10 +52,12 @@ public class StepDefinitions {
     @Then("the attacker wins")
     public void theAttackerWins() {
         // Show attacker victory screen
+        // Assert?
     }
 
     @Then("the defender wins")
     public void theDefenderWins() {
         // Show defender victory screen
+        // Assert?
     }
 }

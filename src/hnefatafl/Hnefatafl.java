@@ -19,7 +19,7 @@ public class Hnefatafl {
         return false;
     }
 
-    public static void move(int oRow, int oCol, int dRow, int dCol) {
+    public static void move(String player, int oRow, int oCol, int dRow, int dCol) {
 
     }
 

@@ -29,8 +29,8 @@ public class StepDefinitions {
     }
 
     @When("the {string} moves from {int}, {int} to {int}, {int}")
-    public void thePlayerMovesFromTo(int arg0, int arg1, int arg2, int arg3) {
-        Hnefatafl.move(arg0, arg1, arg2, arg3);
+    public void thePlayerMovesFromTo(String arg0, int arg1, int arg2, int arg3, int arg4) {
+        Hnefatafl.move(arg0, arg1, arg2, arg3, arg4);
     }
 
     @Then("the game board state is {string}")

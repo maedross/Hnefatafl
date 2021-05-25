@@ -1,3 +1,6 @@
+package hnefatafl;
+
+import hnefatafl.Hnefatafl;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -16,7 +19,7 @@ public class StepDefinitions {
         // Need to generate path somewhere? Should we specify whether it's a save file vs a testing board
         // since they might be in different locations? Or just put them in the same location?
         String givenBoard = Hnefatafl.loadEncodedBoard(arg0);
-        Hnefatafl.setBoard(board);
+        Hnefatafl.setBoard(givenBoard);
     }
 
     @When("I start the game")
